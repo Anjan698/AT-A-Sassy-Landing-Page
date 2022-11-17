@@ -6,32 +6,29 @@
 }
 
 body {
-  background-color: $light-color;
-  font-family: $font-stack;
-  line-height: 1;
+  background-color:rgb(3, 3, 78);
+}
+
+.banner{
+  background-color: rgb(4, 0, 0);
+  color: white;
+}
+
+.This{
+  color:white;
+
 }
 
 img {
-  border-radius: 50%;
+  align-content: center;
+  border-radius: 125%;
+  border-style: initial;
+  float: right;
+  width: 350px;
+  height: 350px;
+  
 }
 
-a {
-  text-decoration: none;
-}
-
-.hero {
-  // This is where the bulk of the SCSS styling needs to be done
-
-  // Take a look at the other files we've built already. How can they be useful here?
-
-  // Also, take time to review the features of SCSS we've already covered:
-  // 1. $variables
-  // 2. nesting (dont forget about the ampersand (&) parent selector!)
-  // 3. At-Rules
-}
-
-// This code is related to some of the aspects of SCSS we have yet to cover.
-// While you don't have to mess with it, it would be advisable to attempt to understand its functionality.
 $spaceamounts: (1,2,3,4,5);
 
 @each $space in $spaceamounts {
